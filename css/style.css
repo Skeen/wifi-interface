@@ -1,0 +1,30 @@
+/* Pages are full-screen, and absolutely positioned for animation */
+/* This is the no-scrolling style */
+.page
+{
+    /* No margins */
+    top:0;
+    left:0;
+	bottom:0;
+    right:0; 
+
+    /* Full-screen page (no scrolling app) */
+	width:100%; 
+
+    /* Absolute position for animation */
+	position:absolute; 
+
+    /* Funny buisness */
+	text-align:center;
+}
+
+/*********/
+/* PAGES */
+/*********/
+/* (specific colors for each page) */
+.page-control	{ background:#ff0000; color:#00ff00; }
+.page-gcode 	{ background:#ffa6bb; color:#9e0000; }
+.page-main 		{ background:#00D0BC; color:#00907c; }
+.page-options	{ background:#00ffbb; color:#ff0000; }
+.page-status	{ background:#0000ff; color:#9eff00; }
+.page-stl    	{ background:#E59400; color:#a55400; }

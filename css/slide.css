@@ -1,0 +1,17 @@
+/**************/
+/* ANIMATIONS */
+/**************/
+
+/* slide out to the left */
+@keyframes slideOutLeft {
+	to 		{ transform: translateX(-100%); }
+}
+
+/* slide in from the right */
+@keyframes slideInRight {
+	from 	{ transform:translateX(100%); }
+	to 		{ transform: translateX(0); }
+}
+
+.ng-enter 			{ animation: scaleInRight 0.5s both ease-in; z-index: 8888; }
+.ng-leave 			{ animation: slideOutLeft 0.5s both ease-in; z-index: 9999; }
